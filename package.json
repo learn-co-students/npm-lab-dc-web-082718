@@ -1,0 +1,32 @@
+{
+  "name": "testpkg",
+  "version": "1.0.0",
+  "description": "Test package for Flatiron npm lab",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevor-jameson/npm-lab-dc-web-082718.git"
+  },
+  "keywords": [
+    "flatiron",
+    "npm",
+    "lab",
+    "hotdog"
+  ],
+  "author": "Trevor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevor-jameson/npm-lab-dc-web-082718/issues"
+  },
+  "homepage": "https://github.com/trevor-jameson/npm-lab-dc-web-082718#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.22.2"
+  }
+}
