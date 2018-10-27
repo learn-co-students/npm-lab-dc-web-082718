@@ -1,0 +1,25 @@
+{
+  "name": "npm-lab-dc-web-082718",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jb5595/npm-lab-dc-web-082718.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jb5595/npm-lab-dc-web-082718/issues"
+  },
+  "homepage": "https://github.com/jb5595/npm-lab-dc-web-082718#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
